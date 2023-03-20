@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css2?family=Bigelow+Rules&family=Poppins:wght@300;400;500;600&family=Roboto+Condensed:wght@300&display=swap');
+
+$color-bg: #1f1f38;
+$color-bg-variant: #2c2c6c;
+$color-primary: #4db5ff;
+
+$color-primary-variant: rgba(77, 181, 255, 0.4);
+$color-white: #fff;
+$color-light: rgba(255, 255, 255, 0.6);
+
+$transition: all 0.4s ease;
+
+$container-width-large: 75%;
+$container-width-medium: 86%;
+$container-width-small: 90%;
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: 0;
+	list-style: none;
+	text-decoration: none;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+	display: none;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+	background: $color-bg;
+	color: $color-white;
+	line-height: 1.7;
+	// background-image: url(../src/assets/bg-1.png);
+	background-image: linear-gradient(to right, #09203f, #537895);
+	// background-image: linear-gradient(to right, #764ba2, #667eea);
+	// background-image: linear-gradient(to right, #4e65ff, #92effd);
+	// background-size: cover;
+	min-height: 100vh;
+}
+
+// ========== GENERAL STYLES ==================
+
+.container {
+	width: $container-width-large;
+	margin: 0 auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-weight: 500;
+}
+
+h1 {
+	font-size: 2.5rem;
+}
+
+section {
+	margin-top: 8rem;
+	// height: 100vh;
+
+	& > h2 {
+		color: $color-primary;
+		margin-bottom: 3rem;
+	}
+
+	& > h2,
+	& > h5 {
+		text-align: center;
+		color: $color-light;
+	}
+
+	& > h2 {
+		color: $color-primary;
+		margin-bottom: 3rem;
+	}
+}
+
+.text-light {
+	color: $color-light;
+}
+
+a {
+	color: $color-primary;
+	transition: $transition;
+
+	&:hover {
+		color: $color-white;
+	}
+}
+
+.btn {
+	width: max-content;
+	display: inline-block;
+	color: $color-primary;
+	padding: 0.75rem 1.2rem;
+	border-radius: 0.4rem;
+	cursor: pointer;
+	border: 1px solid $color-primary;
+	transition: $transition;
+
+	&:hover {
+		background: $color-white;
+		color: $color-bg;
+		border-color: transparent;
+	}
+
+	&-primary {
+		background: $color-primary;
+		color: $color-bg;
+	}
+}
+
+img {
+	display: block;
+	width: 100%;
+	object-fit: cover;
+}
+
+// ========= MEDIA QUERIES (MEDIUM DEVICES) =============
+
+@media screen and (max-width: 1024px) {
+	.container {
+		width: $container-width-medium;
+	}
+
+	section {
+		margin-top: 6rem;
+	}
+}
+
+// ========= MEDIA QUERIES (SMALL DEVICES) =============
+
+@media screen and (max-width: 600px) {
+	.container {
+		width: $container-width-small;
+	}
+
+	section {
+		margin-bottom: 2rem;
+	}
+}
