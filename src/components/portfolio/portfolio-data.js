@@ -9,9 +9,9 @@ export const portfolioData = [
 	{
 		id: 1,
 		image: IMG1,
-		title: 'Hahaha',
-		github: 'https://github.com',
-		demo: 'https://dribbble.com/shots/16673715-Crypto-currency-dashboard-and-financial-visualization',
+		title: 'React Simple Calculator',
+		github: 'https://github.com/Mac-Jones/react-calculator',
+		demo: 'https://elegant-starship-88e525.netlify.app',
 	},
 	{
 		id: 2,
