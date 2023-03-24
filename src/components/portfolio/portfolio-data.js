@@ -9,14 +9,14 @@ export const portfolioData = [
 	{
 		id: 1,
 		image: IMG1,
-		title: 'React Simple Calculator',
+		title: 'Simple Calculator - React',
 		github: 'https://github.com/Mac-Jones/react-calculator',
 		demo: 'https://elegant-starship-88e525.netlify.app',
 	},
 	{
 		id: 2,
 		image: IMG2,
-		title: 'Charts templates & Infographics in Figma',
+		title: 'Crown Clothing - React',
 		github: 'https://github.com',
 		demo: 'https://dribbble.com/shots/16580766-Orion-UI-kit-Charts-templates-infographics-in-Figma',
 	},
