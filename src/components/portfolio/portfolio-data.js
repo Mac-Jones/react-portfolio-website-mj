@@ -37,14 +37,14 @@ export const portfolioData = [
 	{
 		id: 5,
 		image: IMG5,
-		title: 'Charts templates & Infographics in Figma',
+		title: 'Future Projects',
 		github: 'https://github.com',
 		demo: 'https://dribbble.com/shots/16541289-Orion-UI-kit-Charts-templates-infographics-in-Figma',
 	},
 	{
 		id: 6,
 		image: IMG6,
-		title: 'Charts templates & Infographics in Figma',
+		title: 'HAHAAHAHAH',
 		github: 'https://github.com',
 		demo: 'https://dribbble.com/shots/15887665-Orion-UI-kit-Charts-templates-infographics-in-Figma',
 	},
