@@ -40,14 +40,6 @@ const About = () => {
 					</div>
 
 					<p>
-						Logical and results-driven Web Developer dedicated to building and
-						optimizing user-focused websites for customers with various business
-						objectives. Judicious and creative when crafting effective websites,
-						apps and platforms to propel competitive advantage and revenue
-						growth. Technically proficient and analytical problem solver with
-						calm and focused demeanor.
-					</p>
-					<p>
 						I am Mac Jones Soriano, a Frontend Web Developer. I studied in
 						Pangasinan State University with a course of Bachelor of Science in
 						Mechanical Engineering. I finished my first year in school and
