@@ -6,27 +6,24 @@ import AVTR4 from '../../assets/avatar4.jpg';
 export const testimonialData = [
 	{
 		avatar: AVTR1,
-		name: 'Princess Mendoza',
+		name: 'Glydell Soriano',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Nesciunt beatae, placeat recusandae fugit error voluptates repudiandae dicta assumenda ducimus ratione totam officia. Illum necessitatibus cum quo repellat voluptates alias beatae dolores quos deleniti, expedita quidem voluptatum velit vero architecto hic.',
+			'I think its not the best for him to drop his degree course but I see how he pursue his career based on his actions',
 	},
 	{
 		avatar: AVTR2,
-		name: 'Rod Abraham Melano',
+		name: 'Princess Mendoza',
 		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor incidunt dignissimos eum quis facilis, nisi velit debitis fugit id quasi officia explicabo harum quae odio delectus, optio porro, tempora amet reprehenderit sapiente ut temporibus fuga.',
+			'Nothing but a very hard working man, he study late nights and continue again in the morning and I see the potential of his dedication',
 	},
 	{
 		avatar: AVTR3,
 		name: 'Lhord Edwin Osio',
-		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum laboriosam, esse vitae nobis neque temporibus adipisci quod, perspiciatis voluptates saepe a consequatur ullam possimus amet? Expedita culpa atque laboriosam pariatur.',
+		review: `He is my classmate when we're in school in Engineering, I know how he commit to study hard, solving logically, and solving problems. `,
 	},
-
 	{
 		avatar: AVTR4,
-		name: 'Glydell Soriano',
-		review:
-			'Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos, magnam? Beatae eaque tempora, neque mollitia ullam vel, quod amet modi obcaecati quas, dolor assumenda aperiam!',
+		name: 'Rod Abraham Melano',
+		review: `A friend of mine, he aspire to become an IT guy when we are young. And now I'm surprise, he can build website and can explain how it use by every user`,
 	},
 ];

@@ -4,7 +4,7 @@ import { MdOutlineMailOutline } from 'react-icons/md';
 import { RiMessengerLine } from 'react-icons/ri';
 import { BsWhatsapp } from 'react-icons/bs';
 
-import { useForm, ValidationError } from '@formspree/react';
+import { useForm } from '@formspree/react';
 
 const Contact = () => {
 	const defaultInputTypes = {

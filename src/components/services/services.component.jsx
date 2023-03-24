@@ -1,118 +1,118 @@
-import React from 'react';
-import './services.styles.scss';
-import { BiCheck } from 'react-icons/bi';
+// import React from 'react';
+// import './services.styles.scss';
+// import { BiCheck } from 'react-icons/bi';
 
-const Services = () => {
-	return (
-		<section id='services'>
-			<h5>What I Offer</h5>
-			<h2>Services</h2>
+// const Services = () => {
+// 	return (
+// 		<section id='services'>
+// 			<h5>What I Offer</h5>
+// 			<h2>Services</h2>
 
-			<div className='container services__container'>
-				<article className='service'>
-					<div className='service__head'>
-						<h3>UI/UX Design</h3>
-					</div>
+// 			<div className='container services__container'>
+// 				<article className='service'>
+// 					<div className='service__head'>
+// 						<h3>UI/UX Design</h3>
+// 					</div>
 
-					<ul className='service__list'>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-					</ul>
-				</article>
-				{/* END OF UI/UX */}
+// 					<ul className='service__list'>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 					</ul>
+// 				</article>
+// 				{/* END OF UI/UX */}
 
-				<article className='service'>
-					<div className='service__head'>
-						<h3>Web Development</h3>
-					</div>
+// 				<article className='service'>
+// 					<div className='service__head'>
+// 						<h3>Web Development</h3>
+// 					</div>
 
-					<ul className='service__list'>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-					</ul>
-				</article>
-				{/* WEB DEVELOPMENT */}
+// 					<ul className='service__list'>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 					</ul>
+// 				</article>
+// 				{/* WEB DEVELOPMENT */}
 
-				<article className='service'>
-					<div className='service__head'>
-						<h3>Mobile Development</h3>
-					</div>
+// 				<article className='service'>
+// 					<div className='service__head'>
+// 						<h3>Mobile Development</h3>
+// 					</div>
 
-					<ul className='service__list'>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-						<li>
-							<BiCheck className='service__list-icon' />
-							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
-						</li>
-					</ul>
-				</article>
-				{/* MOBILE DEVELOPMENT */}
-			</div>
-		</section>
-	);
-};
+// 					<ul className='service__list'>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 						<li>
+// 							<BiCheck className='service__list-icon' />
+// 							<p>Lorem ipsum dolor sit amet consectetur elit.</p>
+// 						</li>
+// 					</ul>
+// 				</article>
+// 				{/* MOBILE DEVELOPMENT */}
+// 			</div>
+// 		</section>
+// 	);
+// };
 
-export default Services;
+// export default Services;
