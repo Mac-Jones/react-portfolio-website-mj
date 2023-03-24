@@ -3,7 +3,7 @@ import './navigation.styles.scss';
 import { AiOutlineHome } from 'react-icons/ai';
 import { AiOutlineUser } from 'react-icons/ai';
 import { BiBook } from 'react-icons/bi';
-import { RiServiceLine } from 'react-icons/ri';
+// import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageDetail } from 'react-icons/bi';
 import { useState } from 'react';
 
@@ -32,13 +32,13 @@ const Navigation = () => {
 			>
 				<BiBook />
 			</a>
-			<a
+			{/* <a
 				href='#services'
 				onClick={() => setActiveNav('#services')}
 				className={activeNav === '#services' ? 'active' : ''}
 			>
 				<RiServiceLine />
-			</a>
+			</a> */}
 			<a
 				href='#contact'
 				onClick={() => setActiveNav('#contact')}
