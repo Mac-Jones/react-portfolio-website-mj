@@ -4,7 +4,7 @@
 	&__container {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-		gap: 2.5rem;
+		// gap: 2.5rem;
 	}
 
 	&__item {
@@ -13,6 +13,7 @@
 		border-radius: 2rem;
 		border: 1px solid $color-bg; // transparent
 		transition: $transition;
+		text-align: center;
 
 		&-image {
 			border-radius: 1.5rem;
@@ -20,11 +21,17 @@
 		}
 
 		& h3 {
-			margin: 1.2rem 0 2rem;
+			margin-top: 1.2rem;
+		}
+
+		& h4 {
+			margin-bottom: 1rem;
+			color: $color-light;
 		}
 
 		&-cta {
 			display: flex;
+			justify-content: center;
 			gap: 1rem;
 			margin-bottom: 1rem;
 		}
