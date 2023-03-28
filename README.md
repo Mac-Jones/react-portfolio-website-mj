@@ -1,2 +1,2 @@
-# Getting Started with Create React App
+# Hello! I'm Mac Jones Soriano, a frontend developer.
 
