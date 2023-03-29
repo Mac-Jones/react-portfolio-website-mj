@@ -1,6 +1,7 @@
 import React from 'react';
 import './experience.styles.scss';
 import { BsFillPatchCheckFill } from 'react-icons/bs';
+import { SiJavascript } from 'react-icons/si';
 
 const Experiece = () => {
 	return (
@@ -11,6 +12,7 @@ const Experiece = () => {
 			<div className='container experience__container'>
 				<div className='experience__frontend'>
 					<h3>Frontend Development</h3>
+
 					<div className='experience__content'>
 						<article className='experience__details'>
 							<BsFillPatchCheckFill className='experience__details-icon' />

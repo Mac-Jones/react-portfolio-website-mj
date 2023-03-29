@@ -31,6 +31,7 @@ header {
 .cta {
 	margin-top: 2.5rem;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 	gap: 1.2rem;
@@ -47,6 +48,10 @@ header {
 	position: absolute;
 	left: 0;
 	bottom: 3rem;
+
+	a {
+		font-size: 1.5rem;
+	}
 
 	&::after {
 		content: '';
@@ -71,6 +76,11 @@ header {
 @media screen and (max-width: 1024px) {
 	header {
 		height: 70vh;
+	}
+	.header__socials {
+		a {
+			font-size: 1.2rem;
+		}
 	}
 }
 

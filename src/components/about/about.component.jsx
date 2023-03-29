@@ -40,13 +40,14 @@ const About = () => {
 					</div>
 
 					<p>
-						I am Mac Jones Soriano, a Frontend Web Developer. I studied in
-						Pangasinan State University with a course of Bachelor of Science in
-						Mechanical Engineering. I finished my first year in school and
-						eventually I dropout.
+						I am Mac Jones Soriano, a Frontend Web Developer. I see the future
+						of technology is constantly changing. That’s why, when I finished my
+						first year in College, I choose to became a dropout student. I
+						switch from a degree of Mechanical Engineering and turn into my
+						career path as a web developer.
 					</p>
 					<p>
-						I found that my skills is for programming especially in Web
+						I found that my skills are for programming especially in Web
 						Development. In my two years of studying code, I think I'm ready to
 						show this to the world. And now, I'm willing to serve others and to
 						provide my valuable skills like building website applications,
