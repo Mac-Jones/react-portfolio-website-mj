@@ -35,7 +35,7 @@ export const portfolioData = [
 		image: IMG2,
 		title: 'Crown Clothing',
 		description: 'E-Commerce App using React, TypeScript, Redux, etc',
-		github: 'https://github.com',
+		github: 'https://github.com/Mac-Jones/Crown-Clothing',
 		demo: 'https://crown-clothing-reactjs.netlify.app/',
 	},
 	{
